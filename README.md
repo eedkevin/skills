@@ -63,3 +63,7 @@ Skills hold process only. Domain knowledge lives in `references/domains/<slug>/`
 1. Create `docs/INVARIANTS.md` in the target project, starting from `accept/references/domains/<slug>/invariants.md` (currently `payments-stablecoin`); keep appending from review comments and incident records. Set `accept.domain: <slug>` in the project's `CLAUDE.md`.
 2. Before each task, write 3–5 lines of "what must be true when done" and save them as a spec file; /accept uses it as the acceptance basis.
 3. Acceptance records append to the target project's `docs/ACCEPTANCE_LOG.md` by default.
+
+## License
+
+MIT, see `LICENSE`.
